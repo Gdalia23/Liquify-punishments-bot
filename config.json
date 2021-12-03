@@ -1,0 +1,43 @@
+{
+    "memberRole": "memberID",
+    "helperRole": "helperID",
+    "moderatorRole": "moderatorID",
+    "administratorRole": "administratorID",
+    "ownerRole": "ownerID",
+    
+    "logChannel": "id of the log channel",
+    "serverName": "serverName",
+    "noPermission": "You don't have permission to use this command!",
+    "timeReturn": "You didnt specify a time!",
+    "reasonReturn": "You must enter a reason!",
+    "embedRed": "0xff0000",
+    "embedGreen": "0x00ff00",
+    "embedYellow": "0xffff00",
+    "punishmentsTarget": "Please specify someone to load his punishments.",
+
+    "staffNoBanPermission": "You cannot Ban Staff!",
+    "banYourself": "You Cannot Ban Your Self!",
+    "banBot": "You Cannot Ban Me!",
+    "hasBeenBanned": " %user% has been Banned. || %reason%",
+    "banMemberReturn": "Please provide a member to Ban.",
+
+    "staffNoMutePermission": "You cannot Mute Staff!",
+    "muteYourself": "You Cannot Mute Your Self!",
+    "muteBot": "You Cannot Mute Me!",
+    "muteMemberReturn": "Please provide a member to Mute.",
+    "targetHasMuted": "The target already has been muted.",
+    "muteRoleNotFind": "Couldn't find the 'Muted' role.",
+    "hasBeenMuted": " %user% has been Muted. || %reason%",
+    "muteRole": "muteID",
+
+    "staffNoWarnPermission": "You cannot Warn Staff!",
+    "warnYourself": "You Cannot Warn Your Self!",
+    "warnBot": "You Cannot Warn Me!",
+    "hasBeenWarned": " %user% has been Warned. || %reason%",
+    "warnMemberReturn": "Please provide a member to Warn.",
+
+    "token": "",
+    "status": "Bot created by - Ged gd 2",
+    "prefix": "!",
+    "mongoPath": ""
+}
