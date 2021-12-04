@@ -27,11 +27,11 @@ module.exports = {
       const targetRole = member.roles.cache;
 
       // if the target is the sender the command must return
-      if (member.id === message.author.id)
+      if(member.id === message.author.id)
       return message.reply(warnYourself);
 
       // if the target is the bot the command must return
-      if (member.id === client.user.id)
+      if(member.id === client.user.id)
       return message.reply(warnBot);
         
       // if the target have staff role the command must return
