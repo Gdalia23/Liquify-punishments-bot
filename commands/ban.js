@@ -27,11 +27,11 @@ module.exports = {
       const targetRole = member.roles.cache;
 
       // if the target is the sender the command must return
-      if (member.id === message.author.id)
+      if(member.id === message.author.id)
       return message.reply(banYourself);
 
       // if the target is the bot the command must return
-      if (member.id === client.user.id)
+      if(member.id === client.user.id)
       return message.reply(banBot);
 
       // if the target have staff role the command must return
@@ -44,7 +44,7 @@ module.exports = {
 
       // if the args time is empty the command must return
       let time = args[1];
-      if (!time) {
+      if(!time) {
         return message.reply(timeReturn);
         }
 
